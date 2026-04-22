@@ -3,6 +3,8 @@ import { CUSTOM_ELEMENTS_SCHEMA, ChangeDetectionStrategy, Component } from '@ang
 import '~icons/mono-icons/layers';
 import '~icons/ion/logo-web-component';
 import '~icons/mdi/apple-icloud';
+import '~icons/local/react-logo';
+import '~icons/local/vue-logo';
 
 @Component({
   selector: 'app-icon-showcase',
