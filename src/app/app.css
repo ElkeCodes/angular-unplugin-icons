@@ -1,4 +1,6 @@
 main {
-  width: 100ch;
+  max-width: fit-content;
   margin: 0 auto;
+  font-size: 24px;
 }
+
