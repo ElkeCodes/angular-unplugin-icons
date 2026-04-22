@@ -2,19 +2,13 @@ import { CUSTOM_ELEMENTS_SCHEMA, ChangeDetectionStrategy, Component } from '@ang
 
 import '~icons/mono-icons/layers';
 import '~icons/ion/logo-web-component';
+import '~icons/mdi/apple-icloud';
 
 @Component({
   selector: 'app-icon-showcase',
   changeDetection: ChangeDetectionStrategy.OnPush,
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  styles: `
-    :host {
-      display: flex;
-      gap: 1rem;
-      padding: 2rem;
-      font-size: 3rem;
-    }
-  `,
   templateUrl: './icon-showcase.html',
+  styleUrl: './icon-showcase.css',
 })
 export class IconShowcase {}

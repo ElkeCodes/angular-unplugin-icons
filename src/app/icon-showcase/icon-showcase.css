@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.red-icon {
+  color: red;
+}
+
+.large-icon {
+  font-size: 5rem;
+}
